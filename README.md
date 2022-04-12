@@ -17,7 +17,7 @@
     拉取本项目并运行app.py
 ### 使用docker部署：
 ##### 1.拉取镜像
-'''bash
+'''
 docker push kinnisoy/medicalchain:tagname
 '''
 ##### 2.启动区块链
