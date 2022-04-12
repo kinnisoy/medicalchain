@@ -1,0 +1,118 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "fileHash",
+				"type": "bytes"
+			}
+		],
+		"name": "tran_download",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "bytes"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "tranHash",
+				"type": "string"
+			},
+			{
+				"name": "fileHash",
+				"type": "bytes"
+			}
+		],
+		"name": "tran_upload",
+		"outputs": [
+			{
+				"name": "code",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "fileHash",
+				"type": "bytes"
+			}
+		],
+		"name": "download",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "bytes"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "fileData",
+				"type": "string"
+			},
+			{
+				"name": "fileHash",
+				"type": "bytes"
+			},
+			{
+				"name": "uuid",
+				"type": "string"
+			},
+			{
+				"name": "userAddress",
+				"type": "string"
+			},
+			{
+				"name": "userSign",
+				"type": "string"
+			}
+		],
+		"name": "upload",
+		"outputs": [
+			{
+				"name": "code",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

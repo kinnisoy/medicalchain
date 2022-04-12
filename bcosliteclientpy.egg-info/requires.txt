@@ -1,0 +1,16 @@
+parsimonious
+
+[dev]
+bumpversion<1,>=0.5.3
+cytoolz
+toolz
+requests
+attrdict
+Crypto
+pycryptodome
+lru-dict
+configobj
+parsimonious
+
+[tools]
+hypothesis>=3.6.1

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bcosliteclientpy
+Version: 0.6.0
+Summary: bcosliteclientpy is python lite client for FISCO BCOS(https://github.com/FISCO-BCOS/)
+Home-page: UNKNOWN
+Author: kentzhang
+Author-email: zkx@vip.qq.com
+License: MIT
+Description: UNKNOWN
+Keywords: fisco bcos
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6, <4
+Provides-Extra: tools
+Provides-Extra: dev

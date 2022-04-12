@@ -1,0 +1,28 @@
+2020-10-08 14:12:32,395 DEBUG - connect 47.105.76.234:20200,as socket <socket.socket fd=752, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.105', 49956), raddr=('47.105.76.234', 20200)>
+2020-10-08 14:12:32,456 DEBUG - ChannelRecvThread:start thread-->
+2020-10-08 14:12:32,456 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2020-10-08 14:12:32,456 DEBUG - channelSendThread:start thread-->
+2020-10-08 14:12:32,457 DEBUG - channelHandler:start thread-->
+2020-10-08 14:12:32,457 DEBUG - request rpc_data : b'{"jsonrpc": "2.0", "method": "getBlockNumber", "params": [1], "id": 0}'
+2020-10-08 14:12:32,477 DEBUG - channelSendThread send pack len:70,type:0x12,result:0x0,seq:b'4078F5B4092D11EBBE6CCB6CFEE27A44',data:b'{"jsonrpc": "2.0", "method": "getBlockNumber", "params": [1], "id": 0}'
+2020-10-08 14:12:32,498 DEBUG - channelHandler.ssock.recv len:83
+2020-10-08 14:12:32,498 DEBUG - total bytes to decode 83, datalen 83
+2020-10-08 14:12:32,498 DEBUG - ChannelRecvThread:pack from node, put queue(qsize0),detail len:83,type:0x12,result:0x0,seq:b'4078F5B4092D11EBBE6CCB6CFEE27A44',data:b'{"id":0,"jsonrpc":"2.0","result":"0x45"}\n'
+2020-10-08 14:12:32,498 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2020-10-08 14:12:32,499 DEBUG - onResponse, emitter: getResult_b'4078F5B4092D11EBBE6CCB6CFEE27A44'_18
+2020-10-08 14:12:32,499 DEBUG - response from server , seq: b'4078F5B4092D11EBBE6CCB6CFEE27A44', type:18
+2020-10-08 14:12:32,500 DEBUG - block notify emitter: onResponse_b'00000000000000000000000000000000'_4097
+2020-10-08 14:12:32,500 INFO - using protocol channel
+2020-10-08 14:12:32,501 DEBUG - request rpc_data : b'{"jsonrpc": "2.0", "method": "getClientVersion", "params": [], "id": 1}'
+2020-10-08 14:12:32,501 DEBUG - channelSendThread send pack len:19,type:0x32,result:0x0,seq:b'407C763E092D11EB96B6CB6CFEE27A44',data:["_block_notify_1"]
+2020-10-08 14:12:32,501 DEBUG - channelSendThread send pack len:71,type:0x12,result:0x0,seq:b'407C9CB4092D11EBAF48CB6CFEE27A44',data:b'{"jsonrpc": "2.0", "method": "getClientVersion", "params": [], "id": 1}'
+2020-10-08 14:12:32,579 DEBUG - channelHandler.ssock.recv len:299
+2020-10-08 14:12:32,579 DEBUG - total bytes to decode 299, datalen 299
+2020-10-08 14:12:32,579 DEBUG - ChannelRecvThread:pack from node, put queue(qsize0),detail len:299,type:0x12,result:0x0,seq:b'407C9CB4092D11EBAF48CB6CFEE27A44',data:b'{"id":1,"jsonrpc":"2.0","result":{"Build Time":"20200814 08:45:06","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.6.0","Git Branch":"HEAD","Git Commit Hash":"e4a5ef2ef64d1943fccc4ebc61467a91779fb1c0","Supported Version":"2.6.0"}}\n'
+2020-10-08 14:12:32,579 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2020-10-08 14:12:32,581 DEBUG - onResponse, emitter: getResult_b'407C9CB4092D11EBAF48CB6CFEE27A44'_18
+2020-10-08 14:12:32,581 DEBUG - response from server , seq: b'407C9CB4092D11EBAF48CB6CFEE27A44', type:18
+2020-10-08 14:12:32,585 ERROR - ChannelRecvThread:ssock read error [WinError 10004] 一个封锁操作被对 WSACancelBlockingCall 的调用中断。
+2020-10-08 14:12:32,587 DEBUG - channelHandler:thread finished ,keepWorking = False
+2020-10-08 14:12:33,587 DEBUG - ChannelRecvThread:thread finished ,keepWorking = False
+2020-10-08 14:12:33,721 DEBUG - channelSendThread:thread finished ,keepWorking = False
