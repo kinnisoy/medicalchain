@@ -14,6 +14,7 @@
     安装ficso
     安装python[3.6+]
     安装Python-sdk
+    修改`app.py`文件中flask的`root_path`为自己的项目路径地址
     拉取本项目并运行app.py
 ### 使用docker部署：
 ##### 1.拉取镜像
@@ -42,3 +43,7 @@ python ficso_bcos_before.py
 ```python
 python app.py
 ```
+
+
+
+>Ps:docker中，可能有部分前端显示不是很完美，可以重新拉一下本仓库即可。
