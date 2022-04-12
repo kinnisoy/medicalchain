@@ -2,7 +2,7 @@
 
 区块链在医疗行业的应用，web界面可视化展示
 
-[界面在线预览](http://113.24.61.160:9001/html_web/)
+[界面在线预览](http://113.24.61.160:9001/html_web/)(ps：来自gitee用户：郭飞飞)
 
 本项目fork自gitee[医学联盟](https://gitee.com/medical-alliance/medical-blockchain)
 
