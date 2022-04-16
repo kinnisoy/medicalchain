@@ -19,7 +19,7 @@
 ### 使用docker部署：
 ##### 1.拉取镜像
 ```bash
-docker push kinnisoy/medicalchain:tagname
+docker pull kinnisoy/medicalchain:latest
 ```
 ##### 2.启动区块链
 项目文件在home路径
